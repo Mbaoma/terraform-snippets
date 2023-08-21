@@ -1,8 +1,9 @@
 # Create a cluster of web servers
 
-This folder contains Terraform configuration that deploys a cluster of web servers (using EC2 and Auto Scaling) and a load balancer (using ELB) in an Amazon Web Services (AWS) account. 
+This folder contains Terraform configuration that deploys a cluster of web servers (using EC2 and Auto Scaling) and a load balancer (using ELB) and a MYSQL database instance in an Amazon Web Services (AWS) account. 
 
 ## Deploy the code
+- Change directory to folders with terrform configurations
 ```bash
 $ terraform init
 $ terraform fmt
@@ -16,7 +17,7 @@ $ terraform apply
 $ curl -i <alb_dns_name>
 ```
 
-- Clean up when you're done:
+- Clean up when you're done (change directory to folders with terrform configurations):
 ```
 $ terraform destroy
 ```
