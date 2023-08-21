@@ -32,4 +32,4 @@ $ curl <alb_dns_name>
 
 <img width="839" alt="image" src="https://github.com/Mbaoma/terraform-snippets/assets/49791498/21ef46db-0a7b-4073-a9e2-c1b02ef81870">
 
-*Reference: Chapter 3 of [Terraform Up and Running](http://www.terraformupandrunning.com/)
+*Reference: Chapter 3 of [Terraform Up and Running](http://www.terraformupandrunning.com/)*
