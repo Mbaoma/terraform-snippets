@@ -16,10 +16,6 @@ $ terraform apply
 $ curl -i <alb_dns_name>
 ```
 
-<img width="564" alt="image" src="https://github.com/Mbaoma/terraform-snippets/assets/49791498/ce866ed4-fce0-4ed5-b335-4c326e69e7f0">
-
-<img width="1158" alt="image" src="https://github.com/Mbaoma/terraform-snippets/assets/49791498/1b2e8ac7-0302-4fbb-b255-6f7933b8f6e6">
-
 - Clean up when you're done:
 ```
 $ terraform destroy
